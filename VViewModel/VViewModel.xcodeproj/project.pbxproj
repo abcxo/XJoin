@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432480C0191CBD69006E7E4C /* VTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432480BF191CBD69006E7E4C /* VTableViewModel.m */; };
+		432480C6191CC04C006E7E4C /* VModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432480C5191CC04C006E7E4C /* VModel.m */; };
+		4353C90F18E50E1700F840CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4353C90E18E50E1700F840CB /* Foundation.framework */; };
+		4353C91418E50E1700F840CB /* VViewModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4353C91318E50E1700F840CB /* VViewModel.h */; };
+		4353C91618E50E1700F840CB /* VViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4353C91518E50E1700F840CB /* VViewModel.m */; };
+		4353C91D18E50E1700F840CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4353C91C18E50E1700F840CB /* XCTest.framework */; };
+		4353C91E18E50E1700F840CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4353C90E18E50E1700F840CB /* Foundation.framework */; };
+		4353C92018E50E1700F840CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4353C91F18E50E1700F840CB /* UIKit.framework */; };
+		4353C92318E50E1700F840CB /* libVViewModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4353C90B18E50E1700F840CB /* libVViewModel.a */; };
+		4353C92918E50E1700F840CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4353C92718E50E1700F840CB /* InfoPlist.strings */; };
+		4353C92B18E50E1700F840CB /* VViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4353C92A18E50E1700F840CB /* VViewModelTests.m */; };
+		438A4BC718E50FD800D63748 /* VDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A4BC618E50FD800D63748 /* VDataCenter.m */; };
+		438A4BCB18E5105500D63748 /* VDataCenterCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A4BCA18E5105500D63748 /* VDataCenterCache.m */; };
+		4395246F191DEC020012AD7A /* VDataCenterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4395246E191DEC020012AD7A /* VDataCenterRequest.m */; };
+		43952475191E040C0012AD7A /* VModelDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 43952474191E040C0012AD7A /* VModelDefine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4353C92118E50E1700F840CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4353C90318E50E1700F840CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4353C90A18E50E1700F840CB;
+			remoteInfo = VViewModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4353C90918E50E1700F840CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4353C91418E50E1700F840CB /* VViewModel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		432480BE191CBD69006E7E4C /* VTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTableViewModel.h; sourceTree = "<group>"; };
+		432480BF191CBD69006E7E4C /* VTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTableViewModel.m; sourceTree = "<group>"; };
+		432480C4191CC04C006E7E4C /* VModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VModel.h; path = VViewModel/VModel.h; sourceTree = "<group>"; };
+		432480C5191CC04C006E7E4C /* VModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VModel.m; path = VViewModel/VModel.m; sourceTree = "<group>"; };
+		4353C90B18E50E1700F840CB /* libVViewModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVViewModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4353C90E18E50E1700F840CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4353C91218E50E1700F840CB /* VViewModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VViewModel-Prefix.pch"; sourceTree = "<group>"; };
+		4353C91318E50E1700F840CB /* VViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VViewModel.h; sourceTree = "<group>"; };
+		4353C91518E50E1700F840CB /* VViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VViewModel.m; sourceTree = "<group>"; };
+		4353C91B18E50E1700F840CB /* VViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4353C91C18E50E1700F840CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4353C91F18E50E1700F840CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4353C92618E50E1700F840CB /* VViewModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VViewModelTests-Info.plist"; sourceTree = "<group>"; };
+		4353C92818E50E1700F840CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4353C92A18E50E1700F840CB /* VViewModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VViewModelTests.m; sourceTree = "<group>"; };
+		438A4BC518E50FD800D63748 /* VDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDataCenter.h; sourceTree = "<group>"; };
+		438A4BC618E50FD800D63748 /* VDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDataCenter.m; sourceTree = "<group>"; };
+		438A4BC918E5105500D63748 /* VDataCenterCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDataCenterCache.h; sourceTree = "<group>"; };
+		438A4BCA18E5105500D63748 /* VDataCenterCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDataCenterCache.m; sourceTree = "<group>"; };
+		4395246D191DEC020012AD7A /* VDataCenterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDataCenterRequest.h; path = VViewModel/VDataCenterRequest.h; sourceTree = "<group>"; };
+		4395246E191DEC020012AD7A /* VDataCenterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDataCenterRequest.m; path = VViewModel/VDataCenterRequest.m; sourceTree = "<group>"; };
+		43952473191E040C0012AD7A /* VModelDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VModelDefine.h; sourceTree = "<group>"; };
+		43952474191E040C0012AD7A /* VModelDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VModelDefine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4353C90818E50E1700F840CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4353C90F18E50E1700F840CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4353C91818E50E1700F840CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4353C91D18E50E1700F840CB /* XCTest.framework in Frameworks */,
+				4353C92018E50E1700F840CB /* UIKit.framework in Frameworks */,
+				4353C91E18E50E1700F840CB /* Foundation.framework in Frameworks */,
+				4353C92318E50E1700F840CB /* libVViewModel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4353C90218E50E1700F840CB = {
+			isa = PBXGroup;
+			children = (
+				4395246D191DEC020012AD7A /* VDataCenterRequest.h */,
+				4395246E191DEC020012AD7A /* VDataCenterRequest.m */,
+				432480C4191CC04C006E7E4C /* VModel.h */,
+				432480C5191CC04C006E7E4C /* VModel.m */,
+				4353C91018E50E1700F840CB /* VViewModel */,
+				4353C92418E50E1700F840CB /* VViewModelTests */,
+				4353C90D18E50E1700F840CB /* Frameworks */,
+				4353C90C18E50E1700F840CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4353C90C18E50E1700F840CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4353C90B18E50E1700F840CB /* libVViewModel.a */,
+				4353C91B18E50E1700F840CB /* VViewModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4353C90D18E50E1700F840CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4353C90E18E50E1700F840CB /* Foundation.framework */,
+				4353C91C18E50E1700F840CB /* XCTest.framework */,
+				4353C91F18E50E1700F840CB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4353C91018E50E1700F840CB /* VViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4353C91318E50E1700F840CB /* VViewModel.h */,
+				4353C91518E50E1700F840CB /* VViewModel.m */,
+				432480BE191CBD69006E7E4C /* VTableViewModel.h */,
+				432480BF191CBD69006E7E4C /* VTableViewModel.m */,
+				438A4BC818E5102900D63748 /* DataCenter */,
+				4353C91118E50E1700F840CB /* Supporting Files */,
+				43952473191E040C0012AD7A /* VModelDefine.h */,
+				43952474191E040C0012AD7A /* VModelDefine.m */,
+			);
+			path = VViewModel;
+			sourceTree = "<group>";
+		};
+		4353C91118E50E1700F840CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4353C91218E50E1700F840CB /* VViewModel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4353C92418E50E1700F840CB /* VViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4353C92A18E50E1700F840CB /* VViewModelTests.m */,
+				4353C92518E50E1700F840CB /* Supporting Files */,
+			);
+			path = VViewModelTests;
+			sourceTree = "<group>";
+		};
+		4353C92518E50E1700F840CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4353C92618E50E1700F840CB /* VViewModelTests-Info.plist */,
+				4353C92718E50E1700F840CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		438A4BC818E5102900D63748 /* DataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				438A4BC518E50FD800D63748 /* VDataCenter.h */,
+				438A4BC618E50FD800D63748 /* VDataCenter.m */,
+				438A4BC918E5105500D63748 /* VDataCenterCache.h */,
+				438A4BCA18E5105500D63748 /* VDataCenterCache.m */,
+			);
+			name = DataCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4353C90A18E50E1700F840CB /* VViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4353C92E18E50E1700F840CB /* Build configuration list for PBXNativeTarget "VViewModel" */;
+			buildPhases = (
+				4353C90718E50E1700F840CB /* Sources */,
+				4353C90818E50E1700F840CB /* Frameworks */,
+				4353C90918E50E1700F840CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VViewModel;
+			productName = VViewModel;
+			productReference = 4353C90B18E50E1700F840CB /* libVViewModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4353C91A18E50E1700F840CB /* VViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4353C93118E50E1700F840CB /* Build configuration list for PBXNativeTarget "VViewModelTests" */;
+			buildPhases = (
+				4353C91718E50E1700F840CB /* Sources */,
+				4353C91818E50E1700F840CB /* Frameworks */,
+				4353C91918E50E1700F840CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4353C92218E50E1700F840CB /* PBXTargetDependency */,
+			);
+			name = VViewModelTests;
+			productName = VViewModelTests;
+			productReference = 4353C91B18E50E1700F840CB /* VViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4353C90318E50E1700F840CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SJ;
+			};
+			buildConfigurationList = 4353C90618E50E1700F840CB /* Build configuration list for PBXProject "VViewModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4353C90218E50E1700F840CB;
+			productRefGroup = 4353C90C18E50E1700F840CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4353C90A18E50E1700F840CB /* VViewModel */,
+				4353C91A18E50E1700F840CB /* VViewModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4353C91918E50E1700F840CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4353C92918E50E1700F840CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4353C90718E50E1700F840CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43952475191E040C0012AD7A /* VModelDefine.m in Sources */,
+				4353C91618E50E1700F840CB /* VViewModel.m in Sources */,
+				432480C6191CC04C006E7E4C /* VModel.m in Sources */,
+				438A4BCB18E5105500D63748 /* VDataCenterCache.m in Sources */,
+				432480C0191CBD69006E7E4C /* VTableViewModel.m in Sources */,
+				438A4BC718E50FD800D63748 /* VDataCenter.m in Sources */,
+				4395246F191DEC020012AD7A /* VDataCenterRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4353C91718E50E1700F840CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4353C92B18E50E1700F840CB /* VViewModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4353C92218E50E1700F840CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4353C90A18E50E1700F840CB /* VViewModel */;
+			targetProxy = 4353C92118E50E1700F840CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4353C92718E50E1700F840CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4353C92818E50E1700F840CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4353C92C18E50E1700F840CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4353C92D18E50E1700F840CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4353C92F18E50E1700F840CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/VViewModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VViewModel/VViewModel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../VFoundation/VFoundation/** $(SRCROOT)/../VCoreData/VCoreData/**";
+			};
+			name = Debug;
+		};
+		4353C93018E50E1700F840CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/VViewModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VViewModel/VViewModel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../VFoundation/VFoundation/** $(SRCROOT)/../VCoreData/VCoreData/**";
+			};
+			name = Release;
+		};
+		4353C93218E50E1700F840CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VViewModel/VViewModel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VViewModelTests/VViewModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4353C93318E50E1700F840CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VViewModel/VViewModel-Prefix.pch";
+				INFOPLIST_FILE = "VViewModelTests/VViewModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4353C90618E50E1700F840CB /* Build configuration list for PBXProject "VViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4353C92C18E50E1700F840CB /* Debug */,
+				4353C92D18E50E1700F840CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4353C92E18E50E1700F840CB /* Build configuration list for PBXNativeTarget "VViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4353C92F18E50E1700F840CB /* Debug */,
+				4353C93018E50E1700F840CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4353C93118E50E1700F840CB /* Build configuration list for PBXNativeTarget "VViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4353C93218E50E1700F840CB /* Debug */,
+				4353C93318E50E1700F840CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4353C90318E50E1700F840CB /* Project object */;
+}

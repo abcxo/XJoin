@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:XJoin.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VViewModel/VViewModel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VFoundation/VFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VUIKit/VUIKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VCoreData/VCoreData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

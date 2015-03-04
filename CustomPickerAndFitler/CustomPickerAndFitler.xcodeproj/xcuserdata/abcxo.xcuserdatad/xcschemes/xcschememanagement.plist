@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CustomPickerAndFitler copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>CustomPickerAndFitler.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>libCustomPickerAndFitler.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>18F51B18178C1B6C00CD8E2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4378864D19A854520090B597</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4378865A19A854520090B597</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4378868519A855DE0090B597</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>437886B319A8567B0090B597</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>437886C019A8567B0090B597</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
