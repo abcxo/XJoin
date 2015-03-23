@@ -14,8 +14,13 @@
 	NSLog(@"ffffffffffffff %@", launchOptions);
 	// Override point for customization after application launch.
 	[XJoin setup];
-	[[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert];
-    
+
+    if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge|UIUserNotificationTypeAlert|UIUserNotificationTypeSound categories:nil]];
+        [[UIApplication sharedApplication] registerForRemoteNotifications];
+    }else{
+        	[[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert];
+    }
 	[[NotificationCenter defaultCenter] addObserver:self selector:@selector(notificatiedLogined:) name:NOTIFICATION_LOGINED object:nil];
 	[[NotificationCenter defaultCenter] addObserver:self selector:@selector(notificatiedLogouted:) name:NOTIFICATION_LOGOUTED object:nil];
 	[self handleRefreshNotification:launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey]];
