@@ -97,8 +97,10 @@
 	else if ([message.type isEqualToString:MESSAGE_FRIEND_HELLO_TYPE]) {  //活动取消
 		cell.contentLabel.textColor = COLOR_MAIN_ORANGE;
 	}
-	else {
-		cell.contentLabel.textColor = COLOR_MAIN_BLACK_LIGHT;
+    else if([message.type isEqualToString:MESSAGE_FRIEND_SEND_TYPE]){
+        cell.contentLabel.textColor = COLOR_MAIN_BLACK_DARK;
+    }{
+		cell.contentLabel.textColor = COLOR_MAIN_ORANGE_DARK;
 	}
 	cell.timeLabel.text = message.timeString;
 	[cell.avatarImageView setImageWithURL:[message.fromuser_coverurl URL] placeholderImage:[UIImage imageNamed:@"icon_avatar_default"]];
@@ -147,7 +149,9 @@
 
 	else if ([message.type isEqualToString:MESSAGE_FRIEND_HELLO_TYPE]) {  //打招呼
 		[self performSegueWithIdentifier:[UserDetailTableViewController className] sender:[self.tableView cellForRowAtIndexPath:indexPath]];
-	}
+    }else{//其他都跳轉到消息詳情
+        [self performSegueWithIdentifier:[MessageDetailViewController className] sender:[self.tableView cellForRowAtIndexPath:indexPath]];
+    }
 }
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -193,7 +197,11 @@
 		else if ([segue.identifier isEqualToString:[MessageNewViewController className]]) {
 			MessageNewViewController *controller = segue.destinationViewController;
 			controller.uid = message.fromuser;
-		}
+        }
+        else if ([segue.identifier isEqualToString:[MessageDetailViewController className]]) {
+            MessageDetailViewController *controller = segue.destinationViewController;
+            controller.message = message;
+        }
 	}
 }
 

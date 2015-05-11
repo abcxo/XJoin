@@ -9,8 +9,8 @@
 "我"="Me";
 "已參加"="Joined";
 "參加"="Join";
-"已贊它"="Gooded";
-"贊它"="Good";
+"已贊它"="Liked";
+"贊它"="Like";
 "活動參與者(%d)"="Participators(%d)";
 "活動照片(%d)"="Photos(%d)";
 "該活動已經取消了！"="The Activity is Canceled!";
@@ -30,7 +30,7 @@
 "取消後將無法恢復"="Can't Recover by Canceled";
 "確定取消"="Sure Cancel";
 "請輸入活動內容"="Please Enter Content";
-"這是XJoin，一起參加活動吧！"="Hi,This Is BigData,Come On!";
+"這是XJoin，一起參加活動吧！"="Hi,This Is XJoin,Come On!";
 "分享成功！"="Share Success!";
 "分享失敗！"="Share Failure!";
 "請先參加活動後再上傳照片！"="Please Upload After Joined!";
@@ -127,7 +127,7 @@
 "正在邀請..."="Inviting...";
 "%@ 的活動邀請：%@"="%@ Activity Invite:%@";
 "已經發送活动邀请消息！"="Send Success!";
-"請在設置-隱私打開定位，並且允許XJoin訪問！"="Please Allow BigData To Access Location!";
+"請在設置-隱私打開定位，並且允許XJoin訪問！"="Please Allow XJoin To Access Location!";
 "獲取位置信息失敗！"="Location Failure";
 "查看全部"="Look All";
 "僅看女生"="Only Lady";
@@ -140,7 +140,7 @@
 "獲取位置信息失敗！"="Location Failure!";
 "請輸入好友的電郵！"="Please Enter Friend Email!";
 "添加失敗！"="Add Failure!";
-"請打開日曆設置允許XJoin訪問"="Please Allow BigData To Access Calendar!";
+"請打開日曆設置允許XJoin訪問"="Please Allow XJoin To Access Calendar!";
 "上拉可以加載更多"="Up Load More";
 "鬆開立即加載更多"="Loosen Load More";
 "正在加載更多..."="loading...";

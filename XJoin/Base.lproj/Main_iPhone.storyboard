@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="e1m-dl-x7K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="e1m-dl-x7K">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -184,7 +184,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="29L-Js-KHK">
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="middleTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="29L-Js-KHK">
                                                             <rect key="frame" x="10" y="0.0" width="180" height="60"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -981,7 +981,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_avatar_default.png" id="pPC-U1-p9n" customClass="CircleImageView">
-                                            <rect key="frame" x="9" y="2" width="42.5" height="47.5"/>
+                                            <rect key="frame" x="9" y="2" width="42.5" height="48"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" red="0.89019608497619629" green="0.89019608497619629" blue="0.89019608497619629" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
@@ -1033,6 +1033,7 @@
                         <segue destination="e3S-Bb-1Tp" kind="push" identifier="ActivityDetailViewController" id="kFR-eg-wTm"/>
                         <segue destination="Kg8-X8-TTb" kind="push" identifier="MessageNewViewController" id="42e-37-iZR"/>
                         <segue destination="pec-iF-JHh" kind="push" identifier="UserDetailTableViewController" id="7aZ-De-N1Q"/>
+                        <segue destination="Hod-zF-qDk" kind="push" identifier="MessageDetailViewController" id="phM-Zm-d67"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="obF-HG-MbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1060,6 +1061,46 @@
                 </view>
             </objects>
             <point key="canvasLocation" x="-218" y="-6"/>
+        </scene>
+        <!--消息詳情-->
+        <scene sceneID="vxi-wa-cVx">
+            <objects>
+                <viewController id="Hod-zF-qDk" customClass="MessageDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XA1-BH-ywx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="9oH-Fy-K4r">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gwagwefwef" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zd3-vt-U38">
+                                        <rect key="frame" x="20" y="20" width="280" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b6M-Yp-rhV">
+                                        <rect key="frame" x="20" y="80" width="280" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="消息詳情" id="Wke-CG-jKB"/>
+                    <connections>
+                        <outlet property="contentLabel" destination="b6M-Yp-rhV" id="MFc-S5-jFo"/>
+                        <outlet property="subjectLabel" destination="zd3-vt-U38" id="yk8-jZ-A4h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Pf-bM-f47" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-431" y="858"/>
         </scene>
         <!--消息-->
         <scene sceneID="LKb-u3-vSi">
@@ -2660,7 +2701,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_gender_male.png" id="UGd-MZ-iZY">
-                                                    <rect key="frame" x="268" y="9" width="32" height="32"/>
+                                                    <rect key="frame" x="266" y="6" width="32.5" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="男" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="yS7-nL-ksv">
@@ -2685,7 +2726,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_gender_female.png" id="oVn-YV-tBY">
-                                                    <rect key="frame" x="268" y="9" width="32" height="32"/>
+                                                    <rect key="frame" x="266" y="6.5" width="32.5" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="女" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="bad-59-553">
@@ -3228,7 +3269,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="xR8-bu-wjK">
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="middleTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="xR8-bu-wjK">
                                                             <rect key="frame" x="10" y="0.0" width="180" height="60"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -3330,7 +3371,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="jgu-6t-I1N">
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="middleTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" id="jgu-6t-I1N">
                                                             <rect key="frame" x="10" y="0.0" width="180" height="60"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -3722,10 +3763,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="kFR-eg-wTm"/>
+        <segue reference="7aZ-De-N1Q"/>
         <segue reference="YsS-b7-4lr"/>
-        <segue reference="rNH-bF-6fx"/>
-        <segue reference="yvI-OR-2S9"/>
-        <segue reference="EEV-ko-1xW"/>
+        <segue reference="g3E-sV-sOJ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.99607843137254903" green="0.38039215686274508" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
 </document>

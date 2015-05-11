@@ -37,6 +37,7 @@
 #import "MapViewController.h"
 #import "MessageTableViewController.h"
 #import "MessageNewViewController.h"
+#import "MessageDetailViewController.h"
 #import "FriendTableViewController.h"
 #import "UserDetailTableViewController.h"
 #import "UserNearByTableViewController.h"

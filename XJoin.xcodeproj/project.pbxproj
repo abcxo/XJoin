@@ -189,6 +189,7 @@
 		43827FC41A0DC7D9002036F9 /* UserGenderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43827FC31A0DC7D9002036F9 /* UserGenderTableViewController.m */; };
 		43AF621119B43D3800E45C5A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AF621019B43D3800E45C5A /* EventKit.framework */; };
 		43AF621519B43EFC00E45C5A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AF621419B43EFC00E45C5A /* Utils.m */; };
+		43B2EBFD1B00E2F7008BBD1D /* MessageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B2EBFC1B00E2F7008BBD1D /* MessageDetailViewController.m */; };
 		43B8261A19A45A40009D991F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8261919A45A40009D991F /* Foundation.framework */; };
 		43B8261C19A45A40009D991F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8261B19A45A40009D991F /* CoreGraphics.framework */; };
 		43B8261E19A45A40009D991F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8261D19A45A40009D991F /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -494,6 +495,10 @@
 		43AF621019B43D3800E45C5A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		43AF621319B43EFC00E45C5A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		43AF621419B43EFC00E45C5A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		43B2EBF21B00D9AA008BBD1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPhone.storyboard"; sourceTree = "<group>"; };
+		43B2EBF31B00D9B8008BBD1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		43B2EBFB1B00E2F7008BBD1D /* MessageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailViewController.h; sourceTree = "<group>"; };
+		43B2EBFC1B00E2F7008BBD1D /* MessageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailViewController.m; sourceTree = "<group>"; };
 		43B8261619A45A40009D991F /* XJoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B8261919A45A40009D991F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43B8261B19A45A40009D991F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -572,8 +577,6 @@
 		43F5D4F119EE4BB6002F244E /* PrivacyPolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyPolicyViewController.h; sourceTree = "<group>"; };
 		43F5D4F219EE4BB6002F244E /* PrivacyPolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyPolicyViewController.m; sourceTree = "<group>"; };
 		43F5D4F419EE4CD2002F244E /* privacypolicy.doc */ = {isa = PBXFileReference; lastKnownFileType = file; name = privacypolicy.doc; path = Resources/privacypolicy.doc; sourceTree = "<group>"; };
-		BF126B071A8D89D9009970C6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPhone.storyboard"; sourceTree = "<group>"; };
-		BF126B081A8D89ED009970C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		BFBF1B581A7CC9AB0030079D /* XJoin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XJoin-Info.plist"; sourceTree = "<group>"; };
 		BFBF1B5B1A7CCC990030079D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFBF1B5F1A7CCD6B0030079D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1200,6 +1203,8 @@
 				43B8268319A46B5A009D991F /* MessageTableViewController.m */,
 				43B8269D19A46D97009D991F /* MessageNewViewController.h */,
 				43B8269E19A46D97009D991F /* MessageNewViewController.m */,
+				43B2EBFB1B00E2F7008BBD1D /* MessageDetailViewController.h */,
+				43B2EBFC1B00E2F7008BBD1D /* MessageDetailViewController.m */,
 			);
 			name = "消息";
 			sourceTree = "<group>";
@@ -1625,6 +1630,7 @@
 				43B8268119A46B36009D991F /* FriendTableViewController.m in Sources */,
 				43059CF219AC80A800490FF5 /* UserEditNameViewController.m in Sources */,
 				43B8269F19A46D97009D991F /* MessageNewViewController.m in Sources */,
+				43B2EBFD1B00E2F7008BBD1D /* MessageDetailViewController.m in Sources */,
 				43B8269019A46BE4009D991F /* SignUpViewController.m in Sources */,
 				4307FCA619AB20D9007D260D /* ActivityMeTableViewCell.m in Sources */,
 				43059CF519AC80BF00490FF5 /* UserEditContentViewController.m in Sources */,
@@ -1679,8 +1685,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				BFE9D21E1A7CC72300511CAF /* Base */,
-				BF126B071A8D89D9009970C6 /* zh-Hans */,
-				BF126B081A8D89ED009970C6 /* en */,
+				43B2EBF21B00D9AA008BBD1D /* zh-Hans */,
+				43B2EBF31B00D9B8008BBD1D /* en */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
