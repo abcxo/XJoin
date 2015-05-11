@@ -89,18 +89,26 @@
 	cell.titleLabel.text = message.subject;
 	cell.contentLabel.text = message.content;
 	if ([message.type isEqualToString:MESSAGE_ACTIVITY_INVITE_TYPE]) { //活动邀请
+        cell.titleLabel.textColor = COLOR_MAIN_BLACK_DARK;
 		cell.contentLabel.textColor = COLOR_MAIN_BLUE;
 	}
 	else if ([message.type isEqualToString:MESSAGE_ACTIVITY_CANCEL_TYPE]) {  //活动取消
+        cell.titleLabel.textColor = COLOR_MAIN_BLACK_DARK;
 		cell.contentLabel.textColor = COLOR_MAIN_RED_DARK;
 	}
 	else if ([message.type isEqualToString:MESSAGE_FRIEND_HELLO_TYPE]) {  //活动取消
+        cell.titleLabel.textColor = COLOR_MAIN_BLACK_DARK;
 		cell.contentLabel.textColor = COLOR_MAIN_ORANGE;
 	}
     else if([message.type isEqualToString:MESSAGE_FRIEND_SEND_TYPE]){
+        cell.titleLabel.textColor = COLOR_MAIN_BLACK_DARK;
         cell.contentLabel.textColor = COLOR_MAIN_BLACK_DARK;
-    }{
-		cell.contentLabel.textColor = COLOR_MAIN_ORANGE_DARK;
+    }else if([message.type isEqualToString:MESSAGE_FRIEND_ADD_TYPE]){
+        cell.titleLabel.textColor = COLOR_MAIN_BLACK_DARK;
+        cell.contentLabel.textColor = COLOR_MAIN_BLACK_DARK;
+    }else {
+		cell.titleLabel.textColor = COLOR_MAIN_ORANGE_DARK;
+        cell.contentLabel.textColor = COLOR_MAIN_BLACK_DARK;
 	}
 	cell.timeLabel.text = message.timeString;
 	[cell.avatarImageView setImageWithURL:[message.fromuser_coverurl URL] placeholderImage:[UIImage imageNamed:@"icon_avatar_default"]];

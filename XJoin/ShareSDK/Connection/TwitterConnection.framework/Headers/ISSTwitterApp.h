@@ -182,5 +182,30 @@ SSTwitterRequestMethod;
       locationCoordinate:(SSCLocationCoordinate2D *)locationCoordinate
                   result:(SSShareResultEvent)result;
 
+///#begin zh-cn
+/**
+ *	@brief	更新带媒体的状态信息
+ *
+ *	@param 	status 	状态信息
+ *	@param 	media 	媒体信息数组（数组元素是id<ISSCAttachment>类型））
+ *  @param  locationCoordinate  地理位置
+ *  @param  result  返回回调
+ */
+///#end
+///#begin en
+/**
+ *	@brief	Update status.
+ *
+ *	@param 	status 	Content string.
+ *	@param 	media 	Media information array (the type of array element is id<ISSCAttachment>).
+ *  @param  locationCoordinate  Location coordinate.
+ *  @param  result  Result handler.
+ */
+///#end
+- (void)updateWithStatus:(NSString *)status
+              mediaArray:(NSMutableArray *)mediaArray
+      locationCoordinate:(SSCLocationCoordinate2D *)locationCoordinate
+                  result:(SSShareResultEvent)result;
+
 
 @end
