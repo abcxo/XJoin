@@ -95,12 +95,17 @@
 	self.locationManager.delegate = self;
 	self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
 	self.locationManager.distanceFilter = 100;
-	[self.locationManager startUpdatingLocation];
+    if (IOS_VERSION>= 8.0){
+        [self.locationManager requestWhenInUseAuthorization];  //调用了这句,就会弹出允许框了.
+    }
+    [self.locationManager startUpdatingLocation];
+    
 }
 
 - (void)prepareForView {
 	[super prepareForView];
 	[self prepareForUserView];
+    
 }
 
 - (void)prepareForUserView {
