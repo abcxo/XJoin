@@ -1,7 +1,7 @@
 <?php
 
 // Put your device token here (without spaces):
-$deviceToken = 'ad9fca1ca3a32cb3325cfd5167af558863f2a2077fff6ccc2bc67dd2c190e310';
+$deviceToken = '6b509d420913fe2c237c04ae68d0a31ebe6cc377c3045f68b4259c7dfeb8381b';
 
 // Put your private key's passphrase here:
 $passphrase = '123456';
