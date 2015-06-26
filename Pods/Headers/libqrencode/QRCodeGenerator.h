@@ -1,1 +1,0 @@
-../../libqrencode/QRCodeGenerator.h

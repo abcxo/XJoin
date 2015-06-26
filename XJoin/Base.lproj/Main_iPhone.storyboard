@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="e1m-dl-x7K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="e1m-dl-x7K">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -320,7 +320,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="活動" id="gTF-r2-2ZJ">
                         <view key="titleView" contentMode="scaleToFill" id="jJF-vw-m5e" customClass="PPiFlatSegmentedControl">
-                            <rect key="frame" x="96" y="5.5" width="128" height="33"/>
+                            <rect key="frame" x="96" y="6" width="128" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
@@ -1065,7 +1065,7 @@
         <!--消息詳情-->
         <scene sceneID="vxi-wa-cVx">
             <objects>
-                <viewController id="Hod-zF-qDk" customClass="MessageDetailViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="Hod-zF-qDk" customClass="MessageDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XA1-BH-ywx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1629,7 +1629,7 @@
                     <color key="backgroundColor" red="0.99607843139999996" green="0.3803921569" blue="0.25882352939999997" alpha="0.5" colorSpace="calibratedRGB"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="1218" y="2175"/>
+            <point key="canvasLocation" x="1198" y="2199"/>
         </scene>
         <!--暱稱-->
         <scene sceneID="efd-Jf-95X">
@@ -1753,11 +1753,11 @@
             <objects>
                 <viewController storyboardIdentifier="SignUpViewController" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZGa-fq-sbS" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Aq-Km-Ua3">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="UCN-1C-Pcg">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_avatar_default.png" id="rh4-0x-Ohr" customClass="CircleImageView">
@@ -2007,7 +2007,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="RegionTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jy8-z4-1Oo" customClass="RegionTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="56" sectionHeaderHeight="22" sectionFooterHeight="22" id="sqD-SL-8Ov">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.94117647409439087" green="0.94509804248809814" blue="0.94901961088180542" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" red="0.89019608497619629" green="0.89019608497619629" blue="0.89019608497619629" alpha="1" colorSpace="calibratedRGB"/>
@@ -2098,7 +2098,7 @@
             <objects>
                 <viewController storyboardIdentifier="SignInViewController" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ioD-uN-gJP" customClass="SignInViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w3i-xp-rFg">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Rdb-n7-qGW" customClass="RoundButton">
@@ -2214,11 +2214,11 @@
                                 </connections>
                             </button>
                             <view alpha="0.0" contentMode="scaleToFill" id="3Mz-0f-M7M">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="8uW-1e-Y3m">
-                                        <rect key="frame" x="10" y="152" width="300" height="200"/>
+                                        <rect key="frame" x="10" y="152" width="300" height="264"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_input_mid_short.png" id="E8f-vU-Xl8">
@@ -3487,7 +3487,7 @@
                     <navigationItem key="navigationItem" title="活動" id="8W3-kC-H0R">
                         <barButtonItem key="leftBarButtonItem" title="取消" style="plain" id="hgU-AH-rhS"/>
                         <view key="titleView" contentMode="scaleToFill" id="dGG-CT-n2p" customClass="PPiFlatSegmentedControl">
-                            <rect key="frame" x="96" y="5.5" width="128" height="33"/>
+                            <rect key="frame" x="96" y="6" width="128" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>

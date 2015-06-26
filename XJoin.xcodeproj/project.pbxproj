@@ -192,7 +192,6 @@
 		43B8263D19A45A41009D991F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8261919A45A40009D991F /* Foundation.framework */; };
 		43B8263E19A45A41009D991F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8261D19A45A40009D991F /* UIKit.framework */; };
 		43B8264819A45A41009D991F /* XJoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B8264719A45A41009D991F /* XJoinTests.m */; };
-		43B8265619A461B8009D991F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8265119A461B8009D991F /* libPods.a */; };
 		43B8265719A461B8009D991F /* libVCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8265219A461B8009D991F /* libVCoreData.a */; };
 		43B8265819A461B8009D991F /* libVFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8265319A461B8009D991F /* libVFoundation.a */; };
 		43B8265919A461B8009D991F /* libVUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B8265419A461B8009D991F /* libVUIKit.a */; };
@@ -225,6 +224,19 @@
 		43CBB29A19EA10CC00D78C41 /* UserNearByTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBB29919EA10CC00D78C41 /* UserNearByTableViewCell.m */; };
 		43CBB29D19EA897E00D78C41 /* icon_tag_gender_female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CBB29B19EA897E00D78C41 /* icon_tag_gender_female@2x.png */; };
 		43CBB29E19EA897E00D78C41 /* icon_tag_gender_male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CBB29C19EA897E00D78C41 /* icon_tag_gender_male@2x.png */; };
+		43CD5EB91B2491F900F57816 /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAC1B2491F800F57816 /* libPods-AFNetworking.a */; };
+		43CD5EBA1B2491F900F57816 /* libPods-FontAwesome+iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAD1B2491F800F57816 /* libPods-FontAwesome+iOS.a */; };
+		43CD5EBB1B2491F900F57816 /* libPods-IBActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAE1B2491F800F57816 /* libPods-IBActionSheet.a */; };
+		43CD5EBC1B2491F900F57816 /* libPods-IQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAF1B2491F800F57816 /* libPods-IQKeyboardManager.a */; };
+		43CD5EBD1B2491F900F57816 /* libPods-libqrencode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB01B2491F800F57816 /* libPods-libqrencode.a */; };
+		43CD5EBE1B2491F900F57816 /* libPods-MRProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB11B2491F900F57816 /* libPods-MRProgress.a */; };
+		43CD5EBF1B2491F900F57816 /* libPods-PPiAwesomeButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB21B2491F900F57816 /* libPods-PPiAwesomeButton.a */; };
+		43CD5EC01B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB31B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a */; };
+		43CD5EC11B2491F900F57816 /* libPods-SIAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB41B2491F900F57816 /* libPods-SIAlertView.a */; };
+		43CD5EC21B2491F900F57816 /* libPods-SVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB51B2491F900F57816 /* libPods-SVProgressHUD.a */; };
+		43CD5EC31B2491F900F57816 /* libPods-XHImageViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB61B2491F900F57816 /* libPods-XHImageViewer.a */; };
+		43CD5EC41B2491F900F57816 /* libPods-ZBarSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB71B2491F900F57816 /* libPods-ZBarSDK.a */; };
+		43CD5EC51B2491F900F57816 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB81B2491F900F57816 /* libPods.a */; };
 		43D9880819B569F300DA65E8 /* term.docx in Resources */ = {isa = PBXBuildFile; fileRef = 43D9880619B569F300DA65E8 /* term.docx */; };
 		43D9880B19B56A2700DA65E8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9880A19B56A2700DA65E8 /* AboutViewController.m */; };
 		43D9880E19B56B7300DA65E8 /* TermViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9880D19B56B7300DA65E8 /* TermViewController.m */; };
@@ -387,6 +399,8 @@
 		430FFFE819A6421500CCA430 /* CrossScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossScrollView.m; sourceTree = "<group>"; };
 		431188F319A99FCE0023DCEC /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		431BA45819AF0920009810FD /* bg_input_mid_short@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_input_mid_short@2x.png"; path = "Resources/bg_input_mid_short@2x.png"; sourceTree = "<group>"; };
+		4325AF711B287F9E00C4A6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPhone.storyboard"; sourceTree = "<group>"; };
+		4325AF721B287FA900C4A6FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		433D1C8E19AF76F400E9CC3A /* UINavigationBar+UINavigationBarXJoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+UINavigationBarXJoin.h"; sourceTree = "<group>"; };
 		433D1C8F19AF76F400E9CC3A /* UINavigationBar+UINavigationBarXJoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+UINavigationBarXJoin.m"; sourceTree = "<group>"; };
 		433D1C9419AF78B800E9CC3A /* UIToolbar+UIToolbarXJoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+UIToolbarXJoin.h"; sourceTree = "<group>"; };
@@ -481,8 +495,6 @@
 		43AF621019B43D3800E45C5A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		43AF621319B43EFC00E45C5A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		43AF621419B43EFC00E45C5A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		43B2EBF21B00D9AA008BBD1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPhone.storyboard"; sourceTree = "<group>"; };
-		43B2EBF31B00D9B8008BBD1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		43B2EBFB1B00E2F7008BBD1D /* MessageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailViewController.h; sourceTree = "<group>"; };
 		43B2EBFC1B00E2F7008BBD1D /* MessageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailViewController.m; sourceTree = "<group>"; };
 		43B8261619A45A40009D991F /* XJoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -554,6 +566,20 @@
 		43CBB29919EA10CC00D78C41 /* UserNearByTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNearByTableViewCell.m; sourceTree = "<group>"; };
 		43CBB29B19EA897E00D78C41 /* icon_tag_gender_female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tag_gender_female@2x.png"; path = "Resources/icon_tag_gender_female@2x.png"; sourceTree = "<group>"; };
 		43CBB29C19EA897E00D78C41 /* icon_tag_gender_male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tag_gender_male@2x.png"; path = "Resources/icon_tag_gender_male@2x.png"; sourceTree = "<group>"; };
+		43CD5EAA1B2491E400F57816 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		43CD5EAC1B2491F800F57816 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/../build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		43CD5EAD1B2491F800F57816 /* libPods-FontAwesome+iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FontAwesome+iOS.a"; path = "Pods/../build/Debug-iphoneos/libPods-FontAwesome+iOS.a"; sourceTree = "<group>"; };
+		43CD5EAE1B2491F800F57816 /* libPods-IBActionSheet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-IBActionSheet.a"; path = "Pods/../build/Debug-iphoneos/libPods-IBActionSheet.a"; sourceTree = "<group>"; };
+		43CD5EAF1B2491F800F57816 /* libPods-IQKeyboardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-IQKeyboardManager.a"; path = "Pods/../build/Debug-iphoneos/libPods-IQKeyboardManager.a"; sourceTree = "<group>"; };
+		43CD5EB01B2491F800F57816 /* libPods-libqrencode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-libqrencode.a"; path = "Pods/../build/Debug-iphoneos/libPods-libqrencode.a"; sourceTree = "<group>"; };
+		43CD5EB11B2491F900F57816 /* libPods-MRProgress.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MRProgress.a"; path = "Pods/../build/Debug-iphoneos/libPods-MRProgress.a"; sourceTree = "<group>"; };
+		43CD5EB21B2491F900F57816 /* libPods-PPiAwesomeButton.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PPiAwesomeButton.a"; path = "Pods/../build/Debug-iphoneos/libPods-PPiAwesomeButton.a"; sourceTree = "<group>"; };
+		43CD5EB31B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PPiFlatSegmentedControl.a"; path = "Pods/../build/Debug-iphoneos/libPods-PPiFlatSegmentedControl.a"; sourceTree = "<group>"; };
+		43CD5EB41B2491F900F57816 /* libPods-SIAlertView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SIAlertView.a"; path = "Pods/../build/Debug-iphoneos/libPods-SIAlertView.a"; sourceTree = "<group>"; };
+		43CD5EB51B2491F900F57816 /* libPods-SVProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SVProgressHUD.a"; path = "Pods/../build/Debug-iphoneos/libPods-SVProgressHUD.a"; sourceTree = "<group>"; };
+		43CD5EB61B2491F900F57816 /* libPods-XHImageViewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-XHImageViewer.a"; path = "Pods/../build/Debug-iphoneos/libPods-XHImageViewer.a"; sourceTree = "<group>"; };
+		43CD5EB71B2491F900F57816 /* libPods-ZBarSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ZBarSDK.a"; path = "Pods/../build/Debug-iphoneos/libPods-ZBarSDK.a"; sourceTree = "<group>"; };
+		43CD5EB81B2491F900F57816 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		43D9880619B569F300DA65E8 /* term.docx */ = {isa = PBXFileReference; lastKnownFileType = file; name = term.docx; path = Resources/term.docx; sourceTree = "<group>"; };
 		43D9880919B56A2700DA65E8 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		43D9880A19B56A2700DA65E8 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
@@ -566,6 +592,7 @@
 		43F72C9F1B010B7600133179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/ShareSDKLocalizable.strings; sourceTree = "<group>"; };
 		43F72CA11B010B7F00133179 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareSDKLocalizable.strings"; sourceTree = "<group>"; };
 		43F72CA21B010B8200133179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareSDKLocalizable.strings; sourceTree = "<group>"; };
+		5706D419B8A74C7AD9620B9B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BFBF1B581A7CC9AB0030079D /* XJoin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XJoin-Info.plist"; sourceTree = "<group>"; };
 		BFBF1B5B1A7CCC990030079D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFBF1B5F1A7CCD6B0030079D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -577,6 +604,7 @@
 		BFE9D21E1A7CC72300511CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		BFE9D22C1A7CC92900511CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFE9D22E1A7CC92B00511CAF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E5553FF71D48884923D4241C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -584,6 +612,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43CD5EB91B2491F900F57816 /* libPods-AFNetworking.a in Frameworks */,
+				43CD5EBA1B2491F900F57816 /* libPods-FontAwesome+iOS.a in Frameworks */,
+				43CD5EBB1B2491F900F57816 /* libPods-IBActionSheet.a in Frameworks */,
+				43CD5EBC1B2491F900F57816 /* libPods-IQKeyboardManager.a in Frameworks */,
+				43CD5EBD1B2491F900F57816 /* libPods-libqrencode.a in Frameworks */,
+				43CD5EBE1B2491F900F57816 /* libPods-MRProgress.a in Frameworks */,
+				43CD5EBF1B2491F900F57816 /* libPods-PPiAwesomeButton.a in Frameworks */,
+				43CD5EC01B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a in Frameworks */,
+				43CD5EC11B2491F900F57816 /* libPods-SIAlertView.a in Frameworks */,
+				43CD5EC21B2491F900F57816 /* libPods-SVProgressHUD.a in Frameworks */,
+				43CD5EC31B2491F900F57816 /* libPods-XHImageViewer.a in Frameworks */,
+				43CD5EC41B2491F900F57816 /* libPods-ZBarSDK.a in Frameworks */,
+				43CD5EC51B2491F900F57816 /* libPods.a in Frameworks */,
 				43AF621119B43D3800E45C5A /* EventKit.framework in Frameworks */,
 				4303640B19ADE5E400DB5E12 /* libz.dylib in Frameworks */,
 				4303640919ADE5D700DB5E12 /* libc++.dylib in Frameworks */,
@@ -610,7 +651,6 @@
 				430363F119ADADBA00DB5E12 /* ShareSDKFlatShareViewUI.framework in Frameworks */,
 				43B8265E19A461C8009D991F /* QuartzCore.framework in Frameworks */,
 				430363ED19ADADB900DB5E12 /* libWeChatSDK.a in Frameworks */,
-				43B8265619A461B8009D991F /* libPods.a in Frameworks */,
 				43B8265719A461B8009D991F /* libVCoreData.a in Frameworks */,
 				430363EF19ADADBA00DB5E12 /* ShareSDK.framework in Frameworks */,
 				43B8265819A461B8009D991F /* libVFoundation.a in Frameworks */,
@@ -890,6 +930,7 @@
 				43B8264119A45A41009D991F /* XJoinTests */,
 				43B8261819A45A40009D991F /* Frameworks */,
 				43B8261719A45A40009D991F /* Products */,
+				5754BC08AA178DA6FCAA81A5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -905,6 +946,20 @@
 		43B8261819A45A40009D991F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43CD5EAC1B2491F800F57816 /* libPods-AFNetworking.a */,
+				43CD5EAD1B2491F800F57816 /* libPods-FontAwesome+iOS.a */,
+				43CD5EAE1B2491F800F57816 /* libPods-IBActionSheet.a */,
+				43CD5EAF1B2491F800F57816 /* libPods-IQKeyboardManager.a */,
+				43CD5EB01B2491F800F57816 /* libPods-libqrencode.a */,
+				43CD5EB11B2491F900F57816 /* libPods-MRProgress.a */,
+				43CD5EB21B2491F900F57816 /* libPods-PPiAwesomeButton.a */,
+				43CD5EB31B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a */,
+				43CD5EB41B2491F900F57816 /* libPods-SIAlertView.a */,
+				43CD5EB51B2491F900F57816 /* libPods-SVProgressHUD.a */,
+				43CD5EB61B2491F900F57816 /* libPods-XHImageViewer.a */,
+				43CD5EB71B2491F900F57816 /* libPods-ZBarSDK.a */,
+				43CD5EB81B2491F900F57816 /* libPods.a */,
+				43CD5EAA1B2491E400F57816 /* libPods.a */,
 				43AF621019B43D3800E45C5A /* EventKit.framework */,
 				435A0B3019B1F83D00624938 /* SIAlertView.bundle */,
 				4303640A19ADE5E400DB5E12 /* libz.dylib */,
@@ -1333,6 +1388,15 @@
 			name = "圆角按钮";
 			sourceTree = "<group>";
 		};
+		5754BC08AA178DA6FCAA81A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5706D419B8A74C7AD9620B9B /* Pods.debug.xcconfig */,
+				E5553FF71D48884923D4241C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1671,8 +1735,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				BFE9D21E1A7CC72300511CAF /* Base */,
-				43B2EBF21B00D9AA008BBD1D /* zh-Hans */,
-				43B2EBF31B00D9B8008BBD1D /* en */,
+				4325AF711B287F9E00C4A6FF /* zh-Hans */,
+				4325AF721B287FA900C4A6FF /* en */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -1694,7 +1758,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1724,7 +1788,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-all_load";
 				PROVISIONING_PROFILE = "105c383e-ccab-4f54-97d3-d5fca0cad5ef";
@@ -1739,7 +1803,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1763,7 +1827,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				OTHER_LDFLAGS = "-all_load";
 				PROVISIONING_PROFILE = "105c383e-ccab-4f54-97d3-d5fca0cad5ef";
 				SDKROOT = iphoneos;
@@ -1776,6 +1840,7 @@
 		};
 		43B8264C19A45A41009D991F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5706D419B8A74C7AD9620B9B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1792,6 +1857,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJoin/XJoin-Prefix.pch";
 				INFOPLIST_FILE = "XJoin/XJoin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
@@ -1804,6 +1870,7 @@
 					"$(PROJECT_DIR)/XJoin/ShareSDK/Extend/TencentWeiboSDK",
 					"$(PROJECT_DIR)/XJoin/ShareSDK/Extend/WeChatSDK",
 					"$(PROJECT_DIR)/XJoin/ShareSDK/Extend/YiXinSDK",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1816,6 +1883,7 @@
 		};
 		43B8264D19A45A41009D991F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5553FF71D48884923D4241C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1832,6 +1900,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJoin/XJoin-Prefix.pch";
 				INFOPLIST_FILE = "XJoin/XJoin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
@@ -1844,6 +1913,7 @@
 					"$(PROJECT_DIR)/XJoin/ShareSDK/Extend/TencentWeiboSDK",
 					"$(PROJECT_DIR)/XJoin/ShareSDK/Extend/WeChatSDK",
 					"$(PROJECT_DIR)/XJoin/ShareSDK/Extend/YiXinSDK",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";

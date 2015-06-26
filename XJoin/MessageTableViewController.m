@@ -14,6 +14,25 @@
 
 @implementation MessageTableViewController
 
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(applicationEnteredForeground:)
+                                                 name:UIApplicationWillEnterForegroundNotification
+                                               object:nil];
+}
+
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+
+- (void)applicationEnteredForeground:(NSNotification *)notification {
+    [self prepareForUserView];
+}
+
 - (void)prepareForData {
 	[super prepareForData];
 	self.dataSource = [NSMutableArray array];

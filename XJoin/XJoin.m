@@ -16,8 +16,9 @@
 @implementation XJoin
 + (void)setup {
 	[ShareSDK registerApp:@"8e36d520f3cc4e7adec7af7f347179e9"];
-	[ShareSDK connectWeChatWithAppId:@"wx6623254a485a961c"        //此参数为申请的微信AppID
-	                       wechatCls:[WXApi class]];
+	
+    [ShareSDK connectWeChatSessionWithAppId:@"wx6623254a485a961c" wechatCls:[WXApi class]];
+    [ShareSDK connectWeChatTimelineWithAppId:@"wx6623254a485a961c" wechatCls:[WXApi class]];
 
 
 	//Initialize SinaWeibo Application
@@ -45,11 +46,11 @@
 	                         consumerSecret:@"7PMssjohPrKr9RcryjVHft9fLshe9Ke7CZvqBUumMIDbUPEFXP"
 	                            redirectUri:@"http://itunes.apple.com/hk/app/xjoin/id915800706?mt=8"];
 
-
-	//Initialize Evernote Application
-	[ShareSDK connectEvernoteWithType:SSEverNoteTypeSandbox
-	                      consumerKey:@"norman"
-	                   consumerSecret:@"92b428ab314438d3"];
+//
+//	//Initialize Evernote Application
+//	[ShareSDK connectEvernoteWithType:SSEverNoteTypeSandbox
+//	                      consumerKey:@"norman"
+//	                   consumerSecret:@"92b428ab314438d3"];
 	[ShareSDK connectLine];
 	[ShareSDK connectWhatsApp];
 

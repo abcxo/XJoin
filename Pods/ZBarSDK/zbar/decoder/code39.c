@@ -276,7 +276,7 @@ zbar_symbol_type_t _zbar_decode_code39 (zbar_decoder_t *dcode)
         unsigned space = get_width(dcode, 0);
         if(dcode39->character &&
            dcode->buf[dcode39->character - 1] == 0x2b) {  /* STOP */
-            /* trimAll STOP character */
+            /* trim STOP character */
             dcode39->character--;
             zbar_symbol_type_t sym = ZBAR_NONE;
 

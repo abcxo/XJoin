@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30F65C44FA1D42918F243699"
+               BlueprintIdentifier = "4B136D8DB6B0C43CD6962BCC"
                BuildableName = "libPods-XHImageViewer.a"
                BlueprintName = "Pods-XHImageViewer"
                ReferencedContainer = "container:Pods.xcodeproj">

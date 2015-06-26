@@ -163,6 +163,7 @@ typedef NS_ENUM (NSUInteger, ListActivityType) {
 		@"recommend" : @(1),
 		@"page":@(index),
 		@"pagesize":@(20),
+        @"uid":self.mainUser.id.length>0?self.mainUser.id:@"",
                     @"language":[Utils preferredLanguage],
 	};
 
