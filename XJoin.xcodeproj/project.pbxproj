@@ -224,18 +224,6 @@
 		43CBB29A19EA10CC00D78C41 /* UserNearByTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CBB29919EA10CC00D78C41 /* UserNearByTableViewCell.m */; };
 		43CBB29D19EA897E00D78C41 /* icon_tag_gender_female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CBB29B19EA897E00D78C41 /* icon_tag_gender_female@2x.png */; };
 		43CBB29E19EA897E00D78C41 /* icon_tag_gender_male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CBB29C19EA897E00D78C41 /* icon_tag_gender_male@2x.png */; };
-		43CD5EB91B2491F900F57816 /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAC1B2491F800F57816 /* libPods-AFNetworking.a */; };
-		43CD5EBA1B2491F900F57816 /* libPods-FontAwesome+iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAD1B2491F800F57816 /* libPods-FontAwesome+iOS.a */; };
-		43CD5EBB1B2491F900F57816 /* libPods-IBActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAE1B2491F800F57816 /* libPods-IBActionSheet.a */; };
-		43CD5EBC1B2491F900F57816 /* libPods-IQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EAF1B2491F800F57816 /* libPods-IQKeyboardManager.a */; };
-		43CD5EBD1B2491F900F57816 /* libPods-libqrencode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB01B2491F800F57816 /* libPods-libqrencode.a */; };
-		43CD5EBE1B2491F900F57816 /* libPods-MRProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB11B2491F900F57816 /* libPods-MRProgress.a */; };
-		43CD5EBF1B2491F900F57816 /* libPods-PPiAwesomeButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB21B2491F900F57816 /* libPods-PPiAwesomeButton.a */; };
-		43CD5EC01B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB31B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a */; };
-		43CD5EC11B2491F900F57816 /* libPods-SIAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB41B2491F900F57816 /* libPods-SIAlertView.a */; };
-		43CD5EC21B2491F900F57816 /* libPods-SVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB51B2491F900F57816 /* libPods-SVProgressHUD.a */; };
-		43CD5EC31B2491F900F57816 /* libPods-XHImageViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB61B2491F900F57816 /* libPods-XHImageViewer.a */; };
-		43CD5EC41B2491F900F57816 /* libPods-ZBarSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB71B2491F900F57816 /* libPods-ZBarSDK.a */; };
 		43CD5EC51B2491F900F57816 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD5EB81B2491F900F57816 /* libPods.a */; };
 		43D9880819B569F300DA65E8 /* term.docx in Resources */ = {isa = PBXBuildFile; fileRef = 43D9880619B569F300DA65E8 /* term.docx */; };
 		43D9880B19B56A2700DA65E8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9880A19B56A2700DA65E8 /* AboutViewController.m */; };
@@ -612,18 +600,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43CD5EB91B2491F900F57816 /* libPods-AFNetworking.a in Frameworks */,
-				43CD5EBA1B2491F900F57816 /* libPods-FontAwesome+iOS.a in Frameworks */,
-				43CD5EBB1B2491F900F57816 /* libPods-IBActionSheet.a in Frameworks */,
-				43CD5EBC1B2491F900F57816 /* libPods-IQKeyboardManager.a in Frameworks */,
-				43CD5EBD1B2491F900F57816 /* libPods-libqrencode.a in Frameworks */,
-				43CD5EBE1B2491F900F57816 /* libPods-MRProgress.a in Frameworks */,
-				43CD5EBF1B2491F900F57816 /* libPods-PPiAwesomeButton.a in Frameworks */,
-				43CD5EC01B2491F900F57816 /* libPods-PPiFlatSegmentedControl.a in Frameworks */,
-				43CD5EC11B2491F900F57816 /* libPods-SIAlertView.a in Frameworks */,
-				43CD5EC21B2491F900F57816 /* libPods-SVProgressHUD.a in Frameworks */,
-				43CD5EC31B2491F900F57816 /* libPods-XHImageViewer.a in Frameworks */,
-				43CD5EC41B2491F900F57816 /* libPods-ZBarSDK.a in Frameworks */,
 				43CD5EC51B2491F900F57816 /* libPods.a in Frameworks */,
 				43AF621119B43D3800E45C5A /* EventKit.framework in Frameworks */,
 				4303640B19ADE5E400DB5E12 /* libz.dylib in Frameworks */,
@@ -1788,7 +1764,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-all_load";
 				PROVISIONING_PROFILE = "105c383e-ccab-4f54-97d3-d5fca0cad5ef";
@@ -1827,7 +1803,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-all_load";
 				PROVISIONING_PROFILE = "105c383e-ccab-4f54-97d3-d5fca0cad5ef";
 				SDKROOT = iphoneos;
@@ -1857,7 +1833,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJoin/XJoin-Prefix.pch";
 				INFOPLIST_FILE = "XJoin/XJoin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
@@ -1900,7 +1876,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJoin/XJoin-Prefix.pch";
 				INFOPLIST_FILE = "XJoin/XJoin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",

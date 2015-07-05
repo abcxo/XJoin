@@ -73,6 +73,18 @@
 		3F4958C8599364FEB54869B3 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C934BAD9E81EC8C7A9778B7F /* UIButton+AFNetworking.h */; };
 		40C4F7B064679142064B797E /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8AC48CFDD7CB4027FF9E6D /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		433FDCD81E569150E6A8745F /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E68CFB7C76C357345B93F7 /* NSString+FontAwesome.h */; };
+		4340D8EC1B3F8BBB0024ECF2 /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6846A34FAC6B387FA59215A7 /* libPods-AFNetworking.a */; };
+		4340D8ED1B3F8BBB0024ECF2 /* libPods-FontAwesome+iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE531569AF97975675B94A23 /* libPods-FontAwesome+iOS.a */; };
+		4340D8EE1B3F8BBB0024ECF2 /* libPods-IBActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 045F37AA1F308E39FA4551A5 /* libPods-IBActionSheet.a */; };
+		4340D8EF1B3F8BBB0024ECF2 /* libPods-IQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB70417C310FDAF0CFB189 /* libPods-IQKeyboardManager.a */; };
+		4340D8F01B3F8BBB0024ECF2 /* libPods-libqrencode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9448D1FF783C85F4D7850F /* libPods-libqrencode.a */; };
+		4340D8F11B3F8BBB0024ECF2 /* libPods-MRProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC014E16D571EC44826BCEB2 /* libPods-MRProgress.a */; };
+		4340D8F21B3F8BBB0024ECF2 /* libPods-PPiAwesomeButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 535A0C0572D5B795B7ECEFA0 /* libPods-PPiAwesomeButton.a */; };
+		4340D8F31B3F8BBB0024ECF2 /* libPods-PPiFlatSegmentedControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE24A144A97CD255F59D7AF9 /* libPods-PPiFlatSegmentedControl.a */; };
+		4340D8F41B3F8BBB0024ECF2 /* libPods-SIAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DC8F28BED70E769DFB9E4B /* libPods-SIAlertView.a */; };
+		4340D8F51B3F8BBB0024ECF2 /* libPods-SVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 643C73E1550E4E1EEF0636DF /* libPods-SVProgressHUD.a */; };
+		4340D8F61B3F8BBB0024ECF2 /* libPods-XHImageViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E2061DBE1B2CB5F284D9BB /* libPods-XHImageViewer.a */; };
+		4340D8F71B3F8BBB0024ECF2 /* libPods-ZBarSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA4C11DEBB3A5C012EFED31 /* libPods-ZBarSDK.a */; };
 		43A8D73452BB9B6C828AEBAF /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 30F4A80A327D546BE99E6044 /* split.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		43CD5EA81B248D7400F57816 /* QRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CD5EA61B248D7400F57816 /* QRCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43CD5EA91B248D7400F57816 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD5EA71B248D7400F57816 /* QRCodeGenerator.m */; };
@@ -791,6 +803,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4340D8EC1B3F8BBB0024ECF2 /* libPods-AFNetworking.a in Frameworks */,
+				4340D8ED1B3F8BBB0024ECF2 /* libPods-FontAwesome+iOS.a in Frameworks */,
+				4340D8EE1B3F8BBB0024ECF2 /* libPods-IBActionSheet.a in Frameworks */,
+				4340D8EF1B3F8BBB0024ECF2 /* libPods-IQKeyboardManager.a in Frameworks */,
+				4340D8F01B3F8BBB0024ECF2 /* libPods-libqrencode.a in Frameworks */,
+				4340D8F11B3F8BBB0024ECF2 /* libPods-MRProgress.a in Frameworks */,
+				4340D8F21B3F8BBB0024ECF2 /* libPods-PPiAwesomeButton.a in Frameworks */,
+				4340D8F31B3F8BBB0024ECF2 /* libPods-PPiFlatSegmentedControl.a in Frameworks */,
+				4340D8F41B3F8BBB0024ECF2 /* libPods-SIAlertView.a in Frameworks */,
+				4340D8F51B3F8BBB0024ECF2 /* libPods-SVProgressHUD.a in Frameworks */,
+				4340D8F61B3F8BBB0024ECF2 /* libPods-XHImageViewer.a in Frameworks */,
+				4340D8F71B3F8BBB0024ECF2 /* libPods-ZBarSDK.a in Frameworks */,
 				23F52ADF437C6EBD69124A54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2518,6 +2542,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2857,6 +2882,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;

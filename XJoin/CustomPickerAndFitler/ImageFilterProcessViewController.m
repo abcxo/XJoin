@@ -43,15 +43,23 @@
 	[self fitlerDone:sender];
 }
 
+
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.title = NSLocalizedString(@"選擇圖片",nil);
 	self.navigationController.navigationBarHidden = NO;
-	[self.view setBackgroundColor:[UIColor colorWithWhite:0.388 alpha:1.000]];
+	[self.view setBackgroundColor:[UIColor blackColor]];
 	rootImageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-	rootImageView.contentMode = UIViewContentModeScaleAspectFill;
+    rootImageView.backgroundColor=[UIColor blackColor];
+	rootImageView.contentMode = UIViewContentModeScaleAspectFit;
 	rootImageView.image = currentImage;
 	[self.view addSubview:rootImageView];
+    CGRect frame = rootImageView.frame;
+    if ([[[UIDevice currentDevice] systemVersion] floatValue]>=7) {
+        frame.origin.y=-64;
+        rootImageView.frame=frame;
+    }
+
 
 //	UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
 //	[leftBtn setImage:[UIImage imageNamed:@"btn_back.png"] forState:UIControlStateNormal];
