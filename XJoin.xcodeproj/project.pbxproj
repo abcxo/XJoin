@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		430363D519ADADB900DB5E12 /* EverNoteConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430363A719ADADB900DB5E12 /* EverNoteConnection.framework */; };
 		430363D619ADADB900DB5E12 /* FacebookConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430363A819ADADB900DB5E12 /* FacebookConnection.framework */; };
 		430363D819ADADB900DB5E12 /* LineConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430363AA19ADADB900DB5E12 /* LineConnection.framework */; };
 		430363DA19ADADB900DB5E12 /* QQConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430363AC19ADADB900DB5E12 /* QQConnection.framework */; };
@@ -252,7 +251,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		430363A719ADADB900DB5E12 /* EverNoteConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverNoteConnection.framework; sourceTree = "<group>"; };
 		430363A819ADADB900DB5E12 /* FacebookConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookConnection.framework; sourceTree = "<group>"; };
 		430363AA19ADADB900DB5E12 /* LineConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineConnection.framework; sourceTree = "<group>"; };
 		430363AC19ADADB900DB5E12 /* QQConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnection.framework; sourceTree = "<group>"; };
@@ -625,7 +623,6 @@
 				430363F219ADADBA00DB5E12 /* ShareSDKShareActionSheet.framework in Frameworks */,
 				430363DB19ADADB900DB5E12 /* QZoneConnection.framework in Frameworks */,
 				430363D619ADADB900DB5E12 /* FacebookConnection.framework in Frameworks */,
-				430363D519ADADB900DB5E12 /* EverNoteConnection.framework in Frameworks */,
 				431188F419A99FCE0023DCEC /* libiconv.dylib in Frameworks */,
 				430363E719ADADB900DB5E12 /* ShareSDKCoreService.framework in Frameworks */,
 				430363F119ADADBA00DB5E12 /* ShareSDKFlatShareViewUI.framework in Frameworks */,
@@ -685,7 +682,6 @@
 		430363A619ADADB900DB5E12 /* Connection */ = {
 			isa = PBXGroup;
 			children = (
-				430363A719ADADB900DB5E12 /* EverNoteConnection.framework */,
 				430363A819ADADB900DB5E12 /* FacebookConnection.framework */,
 				430363AA19ADADB900DB5E12 /* LineConnection.framework */,
 				430363AC19ADADB900DB5E12 /* QQConnection.framework */,

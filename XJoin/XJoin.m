@@ -16,8 +16,9 @@
 
 @implementation XJoin
 + (void)setup {
+
 	[ShareSDK registerApp:@"8e36d520f3cc4e7adec7af7f347179e9"];
-	
+    [ShareSDK setStatPolicy:SSCStatPolicyLimitSize];	
     [ShareSDK connectWeChatSessionWithAppId:@"wx6623254a485a961c" wechatCls:[WXApi class]];
     [ShareSDK connectWeChatTimelineWithAppId:@"wx6623254a485a961c" wechatCls:[WXApi class]];
 

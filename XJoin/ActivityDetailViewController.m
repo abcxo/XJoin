@@ -365,6 +365,7 @@
     if (content.length+self.titleLabel.text.length>140) {
         content = [content substringToIndex:139-self.titleLabel.text.length];
     }
+    
 
     __block MRProgressOverlayView *progressView  = nil;
 	id <ISSContent> publishContent = [ShareSDK  content:content
@@ -384,7 +385,7 @@
 	                        result: ^(ShareType type, SSResponseState state, id < ISSPlatformShareInfo > statusInfo, id < ICMErrorInfo > error, BOOL end) {
 
                                 if (state == SSResponseStateBegan) {
-                                             [self setEditing:NO];
+                                             [self.view endEditing:YES];
                                               progressView = [MRProgressOverlayView showLoading:LOCALIZED(@"正在分享...")];
                                 }
 	    else if (state == SSResponseStateSuccess) {
