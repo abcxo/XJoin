@@ -10,6 +10,7 @@
 #import "WXApi.h"
 #import <TencentOpenAPI/QQApiInterface.h>
 #import <TencentOpenAPI/TencentOAuth.h>
+#import "WeiboSDK.h"
 //#import <TencentOpenAPI/QQApiInterface.h>
 //#import <TencentOpenAPI/TencentOAuth.h>
 
@@ -24,7 +25,9 @@
 	//Initialize SinaWeibo Application
 	[ShareSDK connectSinaWeiboWithAppKey:@"3683435285"
 	                           appSecret:@"0567242cc2fe1f5215ff2c948f8c9ba7"
-	                         redirectUri:@"http://itunes.apple.com/hk/app/xjoin/id915800706?mt=8"];
+	                         redirectUri:@"http://itunes.apple.com/hk/app/xjoin/id915800706?mt=8"
+                            weiboSDKCls:[WeiboSDK class]];
+    
 
 //	Initialize QZone Application
 	[ShareSDK connectQZoneWithAppKey:@"1102322271"
