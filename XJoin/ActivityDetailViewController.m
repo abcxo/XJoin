@@ -361,7 +361,13 @@
 }
 
 - (void)handleShare {
-	id <ISSContent> publishContent = [ShareSDK  content:self.contentTV.text
+    NSString *content = self.contentTV.text;
+    if (content.length+self.titleLabel.text.length>140) {
+        content = [content substringToIndex:139-self.titleLabel.text.length];
+    }
+
+    __block MRProgressOverlayView *progressView  = nil;
+	id <ISSContent> publishContent = [ShareSDK  content:content
 	                                     defaultContent:LOCALIZED(@"請輸入活動內容")
 	                                              image:[ShareSDK jpegImageWithImage:self.coverImageView.image quality:1]
 	                                              title:self.titleLabel.text
@@ -376,10 +382,17 @@
 	                   authOptions:nil
 	                  shareOptions:nil
 	                        result: ^(ShareType type, SSResponseState state, id < ISSPlatformShareInfo > statusInfo, id < ICMErrorInfo > error, BOOL end) {
-	    if (state == SSResponseStateSuccess) {
+
+                                if (state == SSResponseStateBegan) {
+                                             [self setEditing:NO];
+                                              progressView = [MRProgressOverlayView showLoading:LOCALIZED(@"正在分享...")];
+                                }
+	    else if (state == SSResponseStateSuccess) {
+            [progressView dismiss:YES];
 	        [MRProgressOverlayView showYES:LOCALIZED(@"分享成功！")];
 		}
 	    else if (state == SSResponseStateFail) {
+            [progressView dismiss:YES];
 	        [MRProgressOverlayView showNO:LOCALIZED(@"分享失敗！")];
 	        NSLog(@"Share Fail,Error code:%d,Error description:%@", (int)[error errorCode], [error errorDescription]);
 		}

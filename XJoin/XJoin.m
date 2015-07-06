@@ -25,7 +25,7 @@
 	//Initialize SinaWeibo Application
 	[ShareSDK connectSinaWeiboWithAppKey:@"3683435285"
 	                           appSecret:@"0567242cc2fe1f5215ff2c948f8c9ba7"
-	                         redirectUri:@"http://itunes.apple.com/hk/app/xjoin/id915800706?mt=8"
+                             redirectUri:@"https://api.weibo.com/oauth2/default.html"
                             weiboSDKCls:[WeiboSDK class]];
     
 
@@ -39,15 +39,15 @@
 	                   tencentOAuthCls:[TencentOAuth class]];
 
 	//Initialize Facebook Application
-	[ShareSDK connectFacebookWithAppKey:@"667148623381434"
-	                          appSecret:@"f9937d55dc7ba24841702755305e9035"];
+	[ShareSDK connectFacebookWithAppKey:@"357492681065572"
+	                          appSecret:@"2f6b4f82c310ec3cbecf04294d3ee410"];
 //	[ShareSDK connectFacebookWithAppKey:@"357492681065572"
 //	                          appSecret:@"2f6b4f82c310ec3cbecf04294d3ee410"];
 
 	//Initialize Twitter Application
 	[ShareSDK connectTwitterWithConsumerKey:@"2L0XA3NKQx0siF4z4N6wKNSmc"
 	                         consumerSecret:@"7PMssjohPrKr9RcryjVHft9fLshe9Ke7CZvqBUumMIDbUPEFXP"
-	                            redirectUri:@"http://itunes.apple.com/hk/app/xjoin/id915800706?mt=8"];
+	                            redirectUri:@"http://www.upnovate.com"];
 
 //
 //	//Initialize Evernote Application
@@ -67,5 +67,7 @@
 		[[StorageDefaults appDefaults] setObject:@(YES) forKey:APP_DEFAULT_IS_WELCOMED];
 	}
 }
+
+
 
 @end
