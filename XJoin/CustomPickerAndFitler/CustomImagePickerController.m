@@ -137,7 +137,7 @@
 - (void)    imagePickerController:(UIImagePickerController *)picker
     didFinishPickingMediaWithInfo:(NSDictionary *)info {
 	UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
-//	image = [[image clipImageWithScaleWithsize:CGSizeMake(320, 480)] retain];
+	image = [[image clipImageWithScaleWithsize:CGSizeMake(image.size.width/8, image.size.height/8)] retain];
 	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:YES];
 	if ([_customDelegate respondsToSelector:@selector(cameraPhoto:)]) {
 		[_customDelegate cameraPhoto:image];
