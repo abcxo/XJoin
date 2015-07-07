@@ -12,7 +12,7 @@ static const void *objectClassNameKey = &objectClassNameKey;
 @implementation NSArray (NSArrayVFoundation)
 @dynamic objectClassName;
 #pragma mark - Exchange methods
-__ENABLE_EXCHANGE_METHOD_AND_CLASS__(SELString(initWithObjects : count :), @"__NSPlaceholderArray", SELString(objectAtIndex :), @"__NSArrayM")
+__ENABLE_EXCHANGE_METHOD_AND_CLASS__(/*SELString(initWithObjects : count :), @"__NSPlaceholderArray",*/ SELString(objectAtIndex :), @"__NSArrayI")
 
 - (instancetype)__exchange__initWithObjects:(const id[])objects count:(NSUInteger)cnt {
 	BOOL isHasNil = NO;
